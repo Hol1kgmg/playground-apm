@@ -1,0 +1,11 @@
+[tools]
+gitleaks = "latest"
+lefthook = "latest"
+jq = "latest"
+
+[tasks.setup]
+description = "Run full environment setup"
+run = [
+  "mise install",
+  "lefthook install",
+]
