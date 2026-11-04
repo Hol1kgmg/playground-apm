@@ -6,3 +6,6 @@
 
 .DS_Store
 *.log
+
+# APM dependencies
+apm_modules/

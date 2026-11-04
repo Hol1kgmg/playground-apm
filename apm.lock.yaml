@@ -1,0 +1,89 @@
+lockfile_version: '1'
+apm_version: 0.35.0
+dependencies:
+- repo_url: hol1kgmg/skills
+  materialization_repo_url: Hol1kgmg/skills
+  name: hol1kgmg-skills
+  host: github.com
+  resolved_commit: f162fbc53d1cece940fd2735edc918ea36b22111
+  version: 1.0.0
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/dependabot-review
+  - .agents/skills/dependabot-review/SKILL.md
+  - .agents/skills/dependabot-review/references/nix-content-input.md
+  - .agents/skills/dependabot-review/references/nix-flake.md
+  - .agents/skills/dependabot-review/references/semver.md
+  - .agents/skills/speckit-explain
+  - .agents/skills/speckit-explain/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/dependabot-review/SKILL.md: sha256:fb54f40c20221b116a8b6e48d0b2dc1c312df1858ccfe77995e51558d9d94b1e
+    .agents/skills/dependabot-review/references/nix-content-input.md: sha256:89c1d2b831700a51a6c5646e4022e4a75674857736c1f406147334022f02a3da
+    .agents/skills/dependabot-review/references/nix-flake.md: sha256:aaecaa2315e2fea00257e40742a68036f26ec2ec8d67acaf8528729ce812f252
+    .agents/skills/dependabot-review/references/semver.md: sha256:6082fd472ec9ccdadffc7a2b8bfb7d6037b2c0fdfdf7121549ec871813cdb868
+    .agents/skills/speckit-explain/SKILL.md: sha256:bb5d90ef999c37e085ab3672de7374b4fe8ae65dfd5d76987e3fa793ad3c0c5d
+  content_hash: sha256:ae809931f300e24fbf6360bf5058b64d1490d07e04bb2a94086ffe17fdabaf1b
+deployments:
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/dependabot-review
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: null
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/dependabot-review/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: sha256:fb54f40c20221b116a8b6e48d0b2dc1c312df1858ccfe77995e51558d9d94b1e
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/dependabot-review/references/nix-content-input.md
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: sha256:89c1d2b831700a51a6c5646e4022e4a75674857736c1f406147334022f02a3da
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/dependabot-review/references/nix-flake.md
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: sha256:aaecaa2315e2fea00257e40742a68036f26ec2ec8d67acaf8528729ce812f252
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/dependabot-review/references/semver.md
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: sha256:6082fd472ec9ccdadffc7a2b8bfb7d6037b2c0fdfdf7121549ec871813cdb868
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/speckit-explain
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: null
+- kind: project-relative
+  target: agent-skills
+  value: .agents/skills/speckit-explain/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - hol1kgmg/skills
+  active_owner: hol1kgmg/skills
+  content_hash: sha256:bb5d90ef999c37e085ab3672de7374b4fe8ae65dfd5d76987e3fa793ad3c0c5d

@@ -2,10 +2,12 @@
 gitleaks = "latest"
 lefthook = "latest"
 jq = "latest"
+"github:microsoft/apm" = "0.35.0"
 
 [tasks.setup]
 description = "Run full environment setup"
 run = [
   "mise install",
   "lefthook install",
+  "apm install",
 ]
